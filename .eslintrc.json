@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "indent": ["error", "tab"],
+    "max-len": ["error", { "code": 120 }],
+    "react/jsx-first-prop-new-line": ["error", "multiprop"],
+    "react/jsx-max-props-per-line": [
+      2,
+      { "maximum": 1, "when": "multiline" }
+    ]
+    // "react/jsx-closing-bracket-location": ["warn", "tag-aligned"],
+    // "react/jsx-closing-tag-location": ["warn", "tag-aligned"],
+    // "react/jsx-one-expression-per-line": ["warn", {"allow": "single-child"}]
+  }
+}
